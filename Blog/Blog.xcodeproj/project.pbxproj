@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7ED11E83C9EA9F9D5185BD /* LoggerNetworkingSubsystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ED5196926108173ABB4BF /* LoggerNetworkingSubsystem.swift */; };
 		2B7ED1411A05F54C2D6AF56C /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7EDAD1F94926FAE2AFA027 /* Styles.swift */; };
+		2B7ED25D2BD7467465B21277 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ED704A91E79F97BD3912E /* Logger.swift */; };
+		2B7ED2ACC0F51E4234561E0F /* LoggerSubsystemCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7EDE39C394961E72A76C90 /* LoggerSubsystemCategory.swift */; };
 		2B7ED4085D40314E62999601 /* ICGRMessageComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7EDA26BDBBF186A1821425 /* ICGRMessageComponent.swift */; };
 		2B7ED70374F7FFCF91A4DD8B /* ICGRMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7EDB0A0CADD4925A6240F0 /* ICGRMainViewController.swift */; };
 		2B7ED7071A3B5248F5A44882 /* ICGRTapGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ED48A5DB8EAEAFD1D744E /* ICGRTapGestureRecognizer.swift */; };
 		2B7ED99CCB498302690DBE34 /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ED6B4208A0FCBEEEB10CD /* StackViewController.swift */; };
+		2B7EDA62EC81AAABAC1AE13F /* LoggerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7EDC16A7DB0EF6E6AF9E63 /* LoggerViewController.swift */; };
 		2B7EDAB6DC38743A32B1FFE8 /* TextFactory+Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ED160A3C782B13991123F /* TextFactory+Styles.swift */; };
+		2B7EDB5B04E874B206D8BFB2 /* LoggerMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ED2926A4C83A07031474C /* LoggerMessage.swift */; };
 		2B7EDC07EEDC05404976F3DB /* Extensions+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ED0896097FE111CA90C91 /* Extensions+UIColor.swift */; };
 		2B7EDC396628762C40BE6D2B /* Separator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7EDBCEE0220E36CECE2880 /* Separator.swift */; };
+		2B7EDDADD6FDEB856867C000 /* LoggerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ED02E5C4ADA51A305779A /* LoggerImpl.swift */; };
 		2B7EDDF60E0630743C349954 /* Extensions+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7ED10463DF5845AEE4B32A /* Extensions+UIViewController.swift */; };
 		8AF3F6622221658B0013CC19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3F6612221658B0013CC19 /* AppDelegate.swift */; };
 		8AF3F6642221658B0013CC19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF3F6632221658B0013CC19 /* ViewController.swift */; };
@@ -24,15 +30,21 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B7ED02E5C4ADA51A305779A /* LoggerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerImpl.swift; sourceTree = "<group>"; };
 		2B7ED0896097FE111CA90C91 /* Extensions+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIColor.swift"; sourceTree = "<group>"; };
 		2B7ED10463DF5845AEE4B32A /* Extensions+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Extensions+UIViewController.swift"; sourceTree = "<group>"; };
 		2B7ED160A3C782B13991123F /* TextFactory+Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TextFactory+Styles.swift"; sourceTree = "<group>"; };
+		2B7ED2926A4C83A07031474C /* LoggerMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerMessage.swift; sourceTree = "<group>"; };
 		2B7ED48A5DB8EAEAFD1D744E /* ICGRTapGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICGRTapGestureRecognizer.swift; sourceTree = "<group>"; };
+		2B7ED5196926108173ABB4BF /* LoggerNetworkingSubsystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerNetworkingSubsystem.swift; sourceTree = "<group>"; };
 		2B7ED6B4208A0FCBEEEB10CD /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
+		2B7ED704A91E79F97BD3912E /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		2B7EDA26BDBBF186A1821425 /* ICGRMessageComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICGRMessageComponent.swift; sourceTree = "<group>"; };
 		2B7EDAD1F94926FAE2AFA027 /* Styles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
 		2B7EDB0A0CADD4925A6240F0 /* ICGRMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ICGRMainViewController.swift; sourceTree = "<group>"; };
 		2B7EDBCEE0220E36CECE2880 /* Separator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Separator.swift; sourceTree = "<group>"; };
+		2B7EDC16A7DB0EF6E6AF9E63 /* LoggerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerViewController.swift; sourceTree = "<group>"; };
+		2B7EDE39C394961E72A76C90 /* LoggerSubsystemCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggerSubsystemCategory.swift; sourceTree = "<group>"; };
 		8AF3F65E2221658B0013CC19 /* Blog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF3F6612221658B0013CC19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF3F6632221658B0013CC19 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +88,19 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		2B7EDD8C70710E7DC0379988 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				2B7ED704A91E79F97BD3912E /* Logger.swift */,
+				2B7ED02E5C4ADA51A305779A /* LoggerImpl.swift */,
+				2B7ED2926A4C83A07031474C /* LoggerMessage.swift */,
+				2B7EDE39C394961E72A76C90 /* LoggerSubsystemCategory.swift */,
+				2B7ED5196926108173ABB4BF /* LoggerNetworkingSubsystem.swift */,
+				2B7EDC16A7DB0EF6E6AF9E63 /* LoggerViewController.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
 		8AF3F6552221658B0013CC19 = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +128,7 @@
 				8AF3F66D2221658D0013CC19 /* Info.plist */,
 				2B7ED5CE831BFE4D31355F64 /* UI */,
 				2B7ED1CA9C752F3DDE796515 /* ImplementingACustomGestureRecognizer */,
+				2B7EDD8C70710E7DC0379988 /* Logger */,
 			);
 			path = Blog;
 			sourceTree = "<group>";
@@ -189,6 +215,12 @@
 				2B7EDDF60E0630743C349954 /* Extensions+UIViewController.swift in Sources */,
 				2B7EDC396628762C40BE6D2B /* Separator.swift in Sources */,
 				2B7ED7071A3B5248F5A44882 /* ICGRTapGestureRecognizer.swift in Sources */,
+				2B7ED25D2BD7467465B21277 /* Logger.swift in Sources */,
+				2B7EDDADD6FDEB856867C000 /* LoggerImpl.swift in Sources */,
+				2B7EDB5B04E874B206D8BFB2 /* LoggerMessage.swift in Sources */,
+				2B7ED2ACC0F51E4234561E0F /* LoggerSubsystemCategory.swift in Sources */,
+				2B7ED11E83C9EA9F9D5185BD /* LoggerNetworkingSubsystem.swift in Sources */,
+				2B7EDA62EC81AAABAC1AE13F /* LoggerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
